@@ -1,0 +1,49 @@
+.contact h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+.contact form{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.contact input,
+.contact textarea{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background: #222;
+    color: white;
+}
+
+.contact textarea{
+    min-height: 150px;
+    resize: none;
+}
+
+.contact button{
+    padding: 12px;
+    background: #b74b4b;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    font-weight: bold;
+}
+
+.contact button:hover{
+    background: white;
+    color: black;
+}
+
+.logo .translation {
+    font-size: 0.5em; /* Maakt de tekst kleiner */
+    opacity: 0.7;     /* Maakt het iets doorzichtiger */
+    display: block;   /* Zet de vertaling onder de Japanse tekens */
+}

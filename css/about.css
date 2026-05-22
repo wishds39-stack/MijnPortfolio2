@@ -1,0 +1,119 @@
+.about{
+    padding: 170px 9%;
+    text-align: center;
+}
+
+.about h2{
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.about p{
+    font-size: 1.1rem;
+    color: #ccc;
+    line-height: 1.8;
+}
+
+.hobby-section{
+    padding: 50px 9%;
+    text-align: center;
+}
+
+.hobby-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.hobby-box{
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.hobby-box h4{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.hobby-box p{
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Zorgt dat de hele sectie in het midden komt */
+.about-art-section {
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center; /* Centreert de tekst */
+}
+
+/* Zet de foto-vakjes naast elkaar */
+.art-grid {
+    display: flex;
+    justify-content: center; /* Centreert de vakken */
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Styling voor het vakje om de foto */
+.art-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(139, 69, 55, 0.4);
+    border-radius: 15px;
+    padding: 15px;
+    width: 350px; /* Breedte van je tekening-vak */
+}
+
+.art-card img {
+    width: 100%; /* Maakt de foto passend in het vakje */
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.art-card span {
+    color: #e27d60;
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+/* De kaarten waar de tekeningen in zitten */
+.art-card {
+    background: rgba(255, 255, 255, 0.03);
+    border: 1px solid rgba(139, 69, 55, 0.4);
+    border-radius: 15px;
+    padding: 15px;
+    width: 350px;
+    transition: all 0.4s ease;
+    /* Subtiele glow om de kaart heen */
+    box-shadow: 0 0 15px rgba(139, 69, 55, 0.2);
+}
+
+/* De tekening zelf */
+.art-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    display: block;
+    margin-bottom: 15px;
+    transition: all 0.4s ease;
+    /* De glow die de lijnen van je tekening laat 'stralen' */
+    filter: drop-shadow(0 0 8px rgba(139, 69, 55, 0.6));
+}
+
+/* Effect als je er met je muis op gaat staan */
+.art-card:hover {
+    transform: translateY(-10px);
+    border-color: rgba(139, 69, 55, 1);
+    box-shadow: 0 0 30px rgba(139, 69, 55, 0.5);
+}
+
+.art-card:hover img {
+    filter: drop-shadow(0 0 15px rgba(139, 69, 55, 0.9));
+    transform: scale(1.02);
+}
